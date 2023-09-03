@@ -1,0 +1,48 @@
+.tasks {
+  padding: 5px 10px;
+  margin-block-end: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.365);
+  width: calc(100% - 30px);
+  padding: 10px;
+  flex: 0 1 500px;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 100%;
+}
+
+.input {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.input input {
+  width: 700px;
+  padding-block: 12px;
+  padding-inline-end: 40px;
+  padding-inline-start: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.input button {
+  padding: 10px;
+  position: absolute;
+  top: 2px;
+  right: 1px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
